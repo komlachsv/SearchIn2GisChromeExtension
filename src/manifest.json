@@ -15,7 +15,7 @@
                "48": "2gis.png",
                "128": "2gis_128x128.png" },
 	"permissions": [
-        "tabs", "<all_urls>",
+        "activeTab",
         "contextMenus"
     ]		   
 }
