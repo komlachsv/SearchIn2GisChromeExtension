@@ -9,7 +9,7 @@ var clickHandler = function (e) {
 };
 
 chrome.contextMenus.create({
-	"title": "Найти адрес в 2ГИС",
+	"title": "Найти в 2ГИС",
 	"contexts": ["page", "selection"],
 	"onclick": clickHandler
 });
