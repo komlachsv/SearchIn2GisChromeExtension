@@ -1,6 +1,11 @@
 {
     "manifest_version": 2,
     "name": "Найти в 2ГИС",
+    "options_page": "options.html",
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+      },
     "description": "Удобный переход к поиску в 2ГИС с любой страницы",
     "version": "1.4",
     "background" : {
@@ -16,6 +21,7 @@
                "128": "2gis_128x128.png" },
 	"permissions": [
         "activeTab",
+        "storage",
         "contextMenus"
     ]		   
 }
