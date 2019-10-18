@@ -9,7 +9,7 @@
             }
             else
                 document.getElementById("output")
-                    .innerHTML = "<p>Необходимо выделить текст, либо перейти на <a href='https://2gis." + items.country + " target='_blank'>www.2gis." + items.country + "</a></p>";
+                    .innerHTML = "<p>Необходимо выделить текст, либо перейти на <a href='https://2gis." + items.country + "' target='_blank'>www.2gis." + items.country + "</a></p>";
         });
       });
 

@@ -7,7 +7,7 @@
         "open_in_tab": false
       },
     "description": "Удобный переход к поиску в 2ГИС с любой страницы",
-    "version": "1.4",
+    "version": "2.1",
     "background" : {
         "scripts": ["background.js"]
     },
